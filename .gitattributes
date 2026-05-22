@@ -1,0 +1,4 @@
+modele_maison_vetements.keras filter=lfs diff=lfs merge=lfs -text
+modele_transfer_vetements.keras filter=lfs diff=lfs merge=lfs -text
+hf_spam_model/*.safetensors filter=lfs diff=lfs merge=lfs -text
+modele_maison_poids.weights.h5 filter=lfs diff=lfs merge=lfs -text

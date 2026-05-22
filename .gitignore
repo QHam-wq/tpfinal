@@ -1,0 +1,27 @@
+# --- Environnement Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# --- Dataset images (5762 photos, trop volumineux) ---
+# Les utilisateurs téléchargeront le dataset Fashion Marketplace séparément
+images_original/
+
+# --- Logs TensorBoard ---
+logs_marketplace/
+logs/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Cache des outils ---
+.cache/
+.ipynb_checkpoints/
